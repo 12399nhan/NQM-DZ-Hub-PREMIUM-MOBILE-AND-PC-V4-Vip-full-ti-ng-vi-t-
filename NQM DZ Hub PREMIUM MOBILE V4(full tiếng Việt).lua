@@ -3,12 +3,12 @@ local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/d
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 
 local Window = Fluent:CreateWindow({
-    Title = "NQM DZ Hub PREMIUM MOBILE V2",
-    SubTitle = "[PREMIUM] True V2 by nhân quang minh",
+    Title = "NQM DZ Hub PREMIUM MOBILE V4",
+    SubTitle = "[PREMIUM] True V4 by nhân/quang/minh",
     TabWidth = 160,
     Size = UDim2.fromOffset(530, 350),
     Acrylic = false,
-    Theme = "Light",
+    Theme = "Dark",
     MinimizeKey = Enum.KeyCode.End
 })
 local Tabs = {
