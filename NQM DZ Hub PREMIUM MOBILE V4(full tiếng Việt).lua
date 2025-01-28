@@ -2829,7 +2829,7 @@ spawn(function()
     end
 end)
 
-local ToggleCake = Tabs.Main:AddToggle("ToggleCake", {Title = "Auto đánh lính bánh kẹo", Default = false })
+local ToggleCake = Tabs.Main:AddToggle("ToggleCake", {Title = "Auto đánh llính bánh kẹo", Default = false })
 ToggleCake:OnChanged(function(Value)
  _G.CakePrince = Value
 end)
@@ -2960,7 +2960,7 @@ local boss = Tabs.Main:AddSection("Boss Farm")
 
 
     local DropdownBoss = Tabs.Main:AddDropdown("DropdownBoss", {
-        Title = "rớt đồ boss",
+        Title = "chọn boss",
         Values = tableBoss,
         Multi = false,
         Default = 1,
@@ -3063,7 +3063,7 @@ local boss = Tabs.Main:AddSection("Boss Farm")
         end
 
     local DropdownMaterial = Tabs.Main:AddDropdown("DropdownMaterial", {
-        Title = "rớt đồ quái",
+        Title = "nguyên liệu",
         Values = MaterialList,
         Multi = false,
         Default = 1,
@@ -3135,7 +3135,7 @@ local boss = Tabs.Main:AddSection("Boss Farm")
       end)
 
       if Third_Sea then
-      local RoughSea = Tabs.Main:AddSection("🦊 Kitsune 🦊")
+      local RoughSea = Tabs.Main:AddSection("🦊kiusune🦊")
 
 
       local ToggleEspKitsune = Tabs.Main:AddToggle("ToggleEspKitsune", {Title = "Định vị đảo kisune", Default = false })
